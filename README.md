@@ -8,10 +8,15 @@ This file “Tesla 2024 Valuation Extract for Github_3.25.20_v4” contains thre
 ARK Invest Tesla Scenario Probability Model [“Probabilities” worksheet]
 
 This model allows users to input their own probabilities for each of the following:
+
 •	Autonomous Capability – Will Tesla launch a fully autonomous taxi service successfully?
+
 •	Capital Efficiency – Will Tesla scale factories capital efficiently? 
+
 •	Gross Margins – Will Tesla’s cost of manufacturing vehicles continue to fall in line with Wright’s Law?
+
 •	Access to Capital Markets – If Tesla is unable to lower costs, launch an autonomous taxi network, or become capital efficient, will it also be denied access to the capital markets?
+
 •	Black Swan Event – Will Tesla go bankrupt?
 
 The output is a probability weighted average price for Tesla in the year 2024,  as well as a bull and bear case. Note that user inputs will adjust the probability at which each scenario occurs while using ARK’s estimated price targets for each probability weighted scenario in column H to calculate bull, bear, and probability weighted average price. Read ARK's Blog with further explanation of our assumptions and thoughts on Tesla here https://ark-invest.com/research/tesla-price-target
