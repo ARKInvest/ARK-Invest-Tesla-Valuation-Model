@@ -36,8 +36,11 @@ We will welcome all questions and constructive criticism and feedback.
 
 ARK’s Old 2023 Tesla Valuation Model (file “Tesla Valuation for Github_5.27.19_v3.5“):
 V1 published 5/22/19. Read ARK’s corresponding blog with further explanation of our assumptions and thoughts on Tesla here: https://ark-invest.com/research/tesla-valuation-model
+
 V2 published 5/23/19 fixes: 2018 ASP (was previously just Model 3 ASP), slight correction on 2018 sales units, and fix of EBITDA margin formula
+
 V3 published 5/27/19 Performed a broader extraction of balance sheet feed-throughs from the underlying model to allow the extract to more intuitively respond to different capital intensity expectations and unit sales expectations. Minor formula fix on 5/29/19. Updated debt from 2019 capital raise 5/30/19.
+
 Authors: Sam Korus, Tasha Keeney, Brett Winton
 
 
