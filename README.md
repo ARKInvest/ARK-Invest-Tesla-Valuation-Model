@@ -1,4 +1,22 @@
 # ARK-Invest-Tesla-Valuation-Model
+
+V5 published 3/19/21
+
+This file “Tesla 2025 Valuation Extract for Github_3.18.21” includes our 2025 price target model for Tesla. Please read ARK’s blog (https://ark-invest.com/articles/analyst-research/tesla-price-target-2/) for or a more detailed discussion of our assessment, updates since our last published model, and key components of the model. ARK used a Monte Carlo simulation to arrive at our estimated price target for Tesla as well as our bull and bear price targets. 
+
+A description of each worksheet in the file:
+
+“Tesla Valuation” worksheet allows users to provide their own inputs for a fundamental-based valuation of Tesla. Users can change the 5 key drivers of the model in cells H12-H17, as well as 28 other inputs in cells H19-51. Note that because our price target is derived from a Monte Carlo analysis, there is no one single bear and bull case, but ARK has given example inputs for a bull and bear case in columns J and K.
+
+The “Valuation ASP Tables” worksheet allows the user to change both vehicle average selling price and addressable market at each price point. One can also change the price per mile for an autonomous robotaxi.
+
+The “Monte Carlo Inputs” worksheet the user can adjust the minimum, bear case, bull case, and maximum inputs for each variable. All variables are modeled as normally distributed with the bear and bull case inputs determining the values one standard deviation below/above the mean. The maximum and minimum inputs are used to exclude all distributions falling outside of the normal range from the analysis. Note that the “probability that robotaxis launch” row is the only binary input. When changing variables in this worksheet it may be necessary to wait to allow the simulation to calculate. Clicking immediately on another cell within the worksheet could cut the simulation short and provide inaccurate results. 
+The “Monte Carlo ASP Tables” worksheet allows the user to change both vehicle average selling price and addressable market at each price point. One can also change the price per mile for an autonomous robotaxi.
+The output of the model is a probabilistic range of values. A single simulated outcome is visible on the “Monte Carlo Valuation” worksheet; and a collection of all the simulations is visible on the “Monte Carlo Simulations” worksheet. A static example of 5,000 simulations using ARK’s inputs and assumptions is included in the “Example 5,000 Simulations” tab. 
+
+We will welcome all questions and constructive criticism and feedback.
+________________________________________________________________________________________
+
 V4 published 3/25/20
 
 Update 3/19/20: We adjusted our Tesla valuation to account for the estimated impact of COVID-19. We have added an input that allows users to adjust factory utilization and realized average selling price (ASP) assumptions for 2020. Note that these changes have adjusted our bear, bull, and expected value price targets for Tesla in 2024. 
