@@ -2,7 +2,7 @@
 
 V7 published 04/20/23
 
-This file “Tesla 2027 Valuation Extract for Github” includes an extract of our 2027 price target model for Tesla. Please read ARK’s blog for a more detailed discussion of our assessment, updates since our last published model, and key components of the model.
+This file “Tesla 2027 Valuation Extract for Github” includes an extract of our 2027 price target model for Tesla. Please read ARK’s blog https://ark-invest.com/articles/valuation-models/arks-tesla-price-target-2027/ for a more detailed discussion of our assessment, updates since our last published model, and key components of the model.
 ARK used a Monte Carlo simulation to arrive at our estimated price target for Tesla as well as our bull and bear price targets.
 A description of each worksheet in the file:
 
