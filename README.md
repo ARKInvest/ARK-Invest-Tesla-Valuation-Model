@@ -1,5 +1,7 @@
 # ARK-Invest-Tesla-Valuation-Model
 
+Update 4/21/23: Added additional columns to our Monte Carlo Output tab, edited a column in our output tab to pull Autonomous Revenue in 2027 (v. 2026), and edited a formula to round our autonomous penetration rate according to fractional years between now and 2027. Changes have no effect on our price target for the 2027 year. 
+
 V7 published 04/20/23
 
 This file “Tesla 2027 Valuation Extract for Github” includes an extract of our 2027 price target model for Tesla. Please read ARK’s blog https://ark-invest.com/articles/valuation-models/arks-tesla-price-target-2027/ for a more detailed discussion of our assessment, updates since our last published model, and key components of the model.
