@@ -1,6 +1,6 @@
 # ARK-Invest-Tesla-Valuation-Model
 
-# *The information presented reflects the views and assumptions of the authors at the time of publication. Please note that this research is at least one year old and the authors' current views may materially differ from those presented without notice. The results will not be updated as ARK's internal models change, or any information upon which ARK relies upon changes.*
+*__The information presented reflects the views and assumptions of the authors at the time of publication. Please note that this research is at least one year old and the authors' current views may materially differ from those presented without notice. The results will not be updated as ARK's internal models change, or any information upon which ARK relies upon changes.__*
 
 Update 4/21/23: Added additional columns to our Monte Carlo Output tab, edited a column in our output tab to pull Autonomous Revenue in 2027 (v. 2026), and edited a formula to round our autonomous penetration rate according to fractional years between now and 2027. Changes have no effect on our price target for the 2027 year. 
 
