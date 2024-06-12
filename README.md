@@ -2,6 +2,21 @@
 
 *__The information presented reflects the views and assumptions of the authors at the time of publication. Please note that this research is at least one year old and the authors' current views may materially differ from those presented without notice. The results will not be updated as ARK's internal models change, or any information upon which ARK relies upon changes.__*
 
+V8 published 06/12/24
+ 
+This file “Tesla 2029 Valuation Extract for Github” includes an extract of our 2029 price target model for Tesla. Please read ARK’s blog www.ark-invest.com/articles/valuation-models/arks-tesla-price-target-2029 for a more detailed discussion of our assessment, updates since our last published model, and key components of the model. ARK used a Monte Carlo simulation to arrive at our estimated price target for Tesla as well as our bull and bear price targets. A description of each worksheet in the file:
+ 
+“Tesla Example Valuation” worksheet allows users to provide their own inputs for a fundamental-based valuation of Tesla. Users can change the 5 key drivers of the model in cells L12-L17, as well as 40 other inputs in cells L18-L64. Note that because our price target is derived from a Monte Carlo analysis, there is no one single bear and bull case, but ARK has given example inputs for a bull and bear case in columns N and O.
+ 
+The “Valuation ASP Tables” worksheet allows the user to change both vehicle average selling price and addressable market at each price point. One can also change the price per mile for an autonomous robotaxi, as well as the inputs for the adoption curve for the percent of Tesla’s fleet that is operating in the ride-hail network. This worksheet feeds into both the “Tesla Example Valuation” tab and the “Monte Carlo Single Simulation” tab.
+ 
+The “Tesla Valuation Inputs” worksheet allows users to adjust the minimum, bear case, bull case, and maximum inputs for each variable. All variables are modeled as normally distributed with the bear and bull case inputs determining the values one standard deviation below/above the mean. The maximum and minimum inputs are used to exclude all distributions falling outside of the normal range from the analysis. When changing variables in this worksheet it may be necessary to wait to allow the simulation to calculate. Clicking immediately on another cell within the worksheet could cut the simulation short and provide inaccurate results. The output of the model is a probabilistic range of values.
+ 
+A single simulated outcome is visible on the “Monte Carlo Single Simulation” worksheet; and a collection of all the simulations is visible on the “Monte Carlo Simulation Output” worksheet. A static example of 5,000 simulations using ARK’s inputs and assumptions is included in the “Example 5,000 Simulations” tab.
+ 
+We will welcome all questions and constructive criticism and feedback.
+
+
 Update 4/21/23: Added additional columns to our Monte Carlo Output tab, edited a column in our output tab to pull Autonomous Revenue in 2027 (v. 2026), and edited a formula to round our autonomous penetration rate according to fractional years between now and 2027. Changes have no effect on our price target for the 2027 year. 
 
 V7 published 04/20/23
